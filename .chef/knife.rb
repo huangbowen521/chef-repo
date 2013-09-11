@@ -9,3 +9,8 @@ chef_server_url          "https://api.opscode.com/organizations/bowenhuang"
 cache_type               'BasicFile'
 cache_options( :path => "#{ENV['HOME']}/.chef/checksums" )
 cookbook_path            ["#{current_dir}/../cookbooks"]
+
+
+knife[:aws_access_key_id] = 'AKIAIMLKATFBIVXWKKZA'
+knife[:aws_ssh_key_id] = '860925'
+knife[:aws_secret_access_key] = '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'
